@@ -1,0 +1,9 @@
+# additional compose file to add a volume mount to an inventree instance
+version: "3"
+services:
+  inventree-dev-server:
+    volumes:
+      - ${INVENTREE_FEDERATION_PATH:-.}/inventree_federation/:/home/inventree/InvenTree/plugins/federation/
+    environment:
+      INVENTREE_PLUGINS_ENABLED: true
+      INVENTREE_PLUGIN_DIR: InvenTree/plugins
