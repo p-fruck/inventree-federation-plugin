@@ -1,6 +1,6 @@
 # Inventree Federation Plugin
 
-PoC of a federation plugin for InvenTree (still in some pre-alpha state)
+PoC of a federation plugin. This was a first attempt making InvenTree an IdP itself which has been superseeded by [invenhost/inventree-federation](https://github.com/invenhost/inventree-federation).
 
 ## Manual setup:
 
